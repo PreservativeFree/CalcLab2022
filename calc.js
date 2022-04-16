@@ -7,7 +7,7 @@ const reader = readline.createInterface({
 
 let num3
 
-reader.question("What would you like to calculate?", function(input){
+reader.question("What would you like to calculate?", function(input) {
 	tokens = input.split(' ');
 	
 	mathSymbol = tokens[0];
@@ -32,7 +32,7 @@ reader.question("What would you like to calculate?", function(input){
 	console.log('mathSymbol', mathSymbol);
 	console.log('num1', num1);
 	console.log('num2', num2);
-	//console.log(num1 + num2);
+
 	// This line closes the connection to the command line interface.
 	reader.close()
 
